@@ -5,7 +5,7 @@ def location_in_hierarchy(object, method)
       ancestors.push(object_class)
   end
     
-  ancestors.reverse.each do |ancestor|
+  ancestors.reverse_each do |ancestor|
     if ancestor.instance_methods.include?(method)
       return ancestor
     end
