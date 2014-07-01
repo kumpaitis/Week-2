@@ -1,4 +1,4 @@
 Week-2
 ======
 
-ROR classes week 2 tasks
+Autodealer's tool to follow selected cars (price, details change) from autogidas.lt with information messages via email, SMS 
